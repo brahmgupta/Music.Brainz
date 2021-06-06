@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Music.Brainz.Infrastructure</AssemblyName>
+    <RootNamespace>Music.Brainz.Infrastructure</RootNamespace>
+    <PackageId>Music.Brainz.Infrastructure</PackageId>
+    <Authors>Music.Brainz.Infrastructure</Authors>
+    <Company>Music.Brainz.Infrastructure</Company>
+    <Product>Music.Brainz.Infrastructure</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentResults" Version="1.1.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Scripting" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.15" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.15" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Music.Brainz.Common\Music.Brainz.Common.csproj" />
+  </ItemGroup>
+
+</Project>

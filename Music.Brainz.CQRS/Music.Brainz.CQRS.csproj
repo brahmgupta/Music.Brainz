@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Music.Brainz.CQRS</AssemblyName>
+    <RootNamespace>Music.Brainz.CQRS</RootNamespace>
+    <PackageId>Music Brainz.CQRS</PackageId>
+    <Company>Music Brainz.CQRS</Company>
+    <Product>Music Brainz.CQRS</Product>
+    <Authors>Music Brainz.CQRS</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentResults" Version="1.1.1" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="8.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Music.Brainz.Common\Music.Brainz.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Music.Brainz.Common</AssemblyName>
+    <RootNamespace>Music.Brainz.Common</RootNamespace>
+    <PackageId>Music Brainz.Common</PackageId>
+    <Company>Music Brainz.Common</Company>
+    <Product>Music Brainz.Common</Product>
+    <Authors>Music Brainz.Common</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentResults" Version="1.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

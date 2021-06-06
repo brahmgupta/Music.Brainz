@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Music.Brainz.API</AssemblyName>
+    <RootNamespace>Music.Brainz.API</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.2.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.2.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Scrutor" Version="3.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.1.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Music.Brainz.Common\Music.Brainz.Common.csproj" />
+    <ProjectReference Include="..\Music.Brainz.CQRS\Music.Brainz.CQRS.csproj" />
+    <ProjectReference Include="..\Music.Brainz.Service\Music.Brainz.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
